@@ -1,0 +1,51 @@
+#clbs-w2 {
+    background-color: #0e0612;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.clbs-sec {
+    width: 350px;
+    height: 150px;
+    background-color: #0e0612;
+    border: #9481d4 3px solid;
+    border-radius: 15px;
+    margin: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #b5caff;
+    transition: transform 0.5s ease;
+} 
+
+.clbs-sec p{
+    width: 50%;
+}
+/* 
+.clbs-sec a{
+    width: 50%;
+} */
+
+.clbs-sec:hover {
+    border: #b5caff 3px solid;
+    box-shadow: white 2px;
+    /* box-shadow: rgba(105, 40, 124, 0.5) -1px 2px 1px; */
+    transform: translateY(-3px);
+}
+
+.clbs-sec p{
+    font-size: 1.25em;
+    text-align: center;
+}
+
+.clbs-logo {
+    height: 100px;
+    width: 100px;
+    background-color: #0e0612;
+    background-size: fill;
+    border-radius: 15px;
+}

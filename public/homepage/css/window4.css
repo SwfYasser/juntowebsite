@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=WDXL+Lubrifont+SC&display=swap');
+
+#window4 {
+    height: 40vh;
+    background-color: #0e0612;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+#window4 h1{
+    font-size: 3em;
+    color: #69287c;
+    background: linear-gradient(45deg, #69287c, #69287c, skyblue, #ffc1cc, #ffc1cc);
+    background-size: 400% 400%;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: rainbow 10s ease infinite;
+}
+
+#window4 h1 span {
+    background: linear-gradient(45deg, #69287c, #69287c, #9481d4, #ffc1cc, #ffc1cc);
+    background-size: 400px 400px;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: rainbow 10s ease infinite;
+}
+
+#window4 p{
+    font-size: 2em;
+    color:#b5caff;
+    text-shadow: #69287c -2px 2px 1px;
+    
+}
+
+#window4 a{
+    text-decoration: none;
+    text-shadow: none;
+    background: linear-gradient(45deg, #69287c, #69287c, #9481d4, #ffc1cc, #ffc1cc);
+    background-size: 380px 380px;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: rainbow 10s ease infinite;
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: 0% 50%;
+    } 
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@media (max-width:600px) {
+    #window4 h1 {
+        font-size: 1em;
+        font-weight: 600;
+    }
+
+    #window4 p {
+        font-size: 1em;
+        font-weight: 600;
+    }
+}

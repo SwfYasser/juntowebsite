@@ -1,0 +1,20 @@
+#contact-w1 {
+    background-color: #0e0612;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.subsec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

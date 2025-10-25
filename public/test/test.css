@@ -1,0 +1,121 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.test-window{
+    width: 100%;
+    height: auto;
+}
+
+#window1 {
+    width: 100%;
+    text-align: center;
+
+}
+
+#window2{
+    width: 100%;
+    display: flex;
+    justify-content: center; /* center the items horizontally */
+    align-items: center;     
+    gap: 10px;              /* optional spacing between items */
+}
+
+.w2-sec{
+    background-color: black;
+    border: darkred 3px solid;
+    color: white;
+    height: 300px;
+    max-width: 600px;
+    flex: 1 1 300px;
+}
+
+#window3 {
+    padding: 0;
+    margin: 0;
+    height: auto;
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-left: 10px;   /* gives breathing room for first child */
+    padding-right: 10px;  /* gives breathing room for last child */
+    box-sizing: border-box;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+
+}
+
+.section{
+    width: max-content;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.wide-box{
+    width: 300px;
+    aspect-ratio: 16/9;
+    background-color: black;
+    border: red 3px solid;
+    transition: transform 0.3s ease-in-out, z-index 0.3s ease-in-out;
+}
+
+.wide-box:first-child{
+    margin-left: 50px;
+}
+
+.wide-box:last-child{
+    margin-right: 50px;
+}
+
+
+
+#box6{
+    background-image: url(art-pic.png);
+    background-position: center;
+    background-size: contain;
+}
+
+#box4 {
+    background-image: url(phg.png);
+    background-position: center;
+    background-size: contain;
+}
+
+#window4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80vw;
+    height: 80vh;
+}
+
+.monitor {
+    border: 3px black solid;
+    width: 85%;
+    aspect-ratio: 1920/1080;
+    background-position: center;
+    background-size: contain;
+}
+
+#deleteBtn{
+    background: red;
+    color: white;
+    border: none;
+}
+
+#window5 {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+#window5 p{
+    color: white;
+    font-size: 2em;
+}
